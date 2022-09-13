@@ -30,7 +30,7 @@ async function handlePromptInput(error, result) {
   }
   try {
     console.clear();
-    console.log(`${result.name} Login:`)
+    console.log(`${result.name} Login:\n`)
     console.log(await qrcode.generateWifiQRCode({
       ssid: result.name,
       password: result.password,
