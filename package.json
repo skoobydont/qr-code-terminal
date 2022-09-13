@@ -1,0 +1,30 @@
+{
+  "name": "qr-code-terminal",
+  "version": "1.0.0",
+  "description": "qr code generator via terminal input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoobydont/qr-code-terminal.git"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "generator",
+    "node",
+    "terminal"
+  ],
+  "author": "aj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skoobydont/qr-code-terminal/issues"
+  },
+  "homepage": "https://github.com/skoobydont/qr-code-terminal#readme",
+  "dependencies": {
+    "prompt": "^1.3.0",
+    "wifi-qr-code-generator": "^1.1.1"
+  }
+}
